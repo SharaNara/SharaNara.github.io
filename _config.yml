@@ -1,7 +1,7 @@
 # Site settings
-title_left    : "LunarNet"
-title_right   : ".space" # default: ""
-description   : "🚀"
+title_left    : "🚀 "
+title_right   : "LunarNet.space" # default: ""
+description   : "Roaming The Stars"
 keywords      : ""
 url           : https://lunarnet.space # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
