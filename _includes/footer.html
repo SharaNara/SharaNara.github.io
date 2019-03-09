@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer{% if page.shortpage %} fixed-footer{% endif %}">
   <div class="container">
     <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} &middot; &lt;/&gt; Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopen nofollow noreferrer">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace" target="_blank" rel="noopen nofollow noreferrer">Thinkspace Theme</a></small>
   </div>

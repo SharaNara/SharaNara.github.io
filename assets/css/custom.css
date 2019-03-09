@@ -1,4 +1,4 @@
-footer.site-footer {
+footer.site-footer.fixed-footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -13,10 +13,10 @@ footer.site-footer {
   cursor: normal;
 }
 
-footer.site-footer:hover {
+footer.site-footer.fixed-footer:hover {
   opacity: 1;
 }
 
-footer.site-footer div.container {
+footer.site-footer.fixed-footer div.container {
   padding: 0;
 }
