@@ -1,0 +1,33 @@
+@media screen and (max-width: $mobile-snap) {
+  div#header-inner {
+    display: block;
+  }
+
+  header {
+    text-align: center;
+
+    h1 {
+      width: 100%;
+    }
+
+    nav {
+      a {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 4px 0;
+      }
+
+      a.social {
+        font-size: 1.5em;
+        width: auto;
+        display: inline-block;
+        margin: 4px 8px;
+      }
+
+      span#nav-divider {
+        display: none;
+      }
+    }
+  }
+}

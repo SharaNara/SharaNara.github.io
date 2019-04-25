@@ -1,0 +1,31 @@
+footer {
+  max-width: 20em;
+  margin: 0 auto;
+  background-color: $secondary;
+  border: 2px solid darken($main, 35%);
+  border-radius: 8px;
+  padding: 4px;
+  text-align: center;
+  opacity: 0.5;
+  margin-top: 16px;
+  font-size: 0.8em;
+  cursor: default;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+
+    a {
+      color: inherit;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
