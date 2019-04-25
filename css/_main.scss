@@ -1,0 +1,61 @@
+body {
+  background-color: #111;
+  color: #eee;
+  padding: 0;
+  margin: 0;
+  font-family: $fn-cont;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $fn-head;
+}
+
+article {
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 8px;
+
+  section#page-meta {
+    margin-top: 8px;
+    margin-bottom: 16px;
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin: 0;
+      padding: 0;
+    }
+
+    h4#page-date {
+      font-style: italic;
+      font-weight: normal;
+      opacity: 0.5;
+    }
+  }
+
+  p {
+    line-height: 1.5em;
+  }
+
+  a {
+    color: $main;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  hr {
+    border: none;
+    padding: 1px;
+    background-color: darken($main, 30%);
+    border-radius: 2px;
+  }
+}

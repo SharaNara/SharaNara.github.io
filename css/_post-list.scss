@@ -1,0 +1,45 @@
+div.post-list {
+  margin-top: 8px;
+
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  a.post {
+    color: inherit;
+    margin-top: 8px;
+
+    h3 {
+      color: darken($main, 10%);
+      margin-bottom: 0;
+    }
+
+    h4 {
+      margin-top: 2px;
+      font-style: italic;
+      font-weight: normal;
+      opacity: 0.5;
+    }
+  }
+
+  a.more {
+    color: darken($main, 5%);
+
+    &:hover {
+      text-decoration: none;
+      font-weight: bold;
+
+      i {
+        margin-left: 8px;
+        color: lighten($main, 40%);
+      }
+    }
+
+    i {
+      color: lighten($main, 20%);
+      margin-left: 4px;
+      transition: margin 0.2s ease, color 0.2s ease;
+    }
+  }
+}

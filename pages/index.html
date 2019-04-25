@@ -2,28 +2,20 @@
 layout: default
 title: Home
 permalink: /
-shortpage: true
 ---
 
-{% include intro.html %}
+<h2>Welcome! I'm Matt, and this is one of my projects.</h2>
+<p>Here, you'll be able to find things relating to what I do. Below are a few of my latest blog posts, and above you can find links to some of the other pages you can find here.</p>
 
-<section class="post-list">
-  <div class="container">
-    {% for post in site.posts %}
-      {% unless post.next %}
-        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-        {% endif %}
-      {% endunless %}
-      <article class="post-item">
-        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
-      </article>
-    {% endfor %}
+{% if postnum > 0 %}
+  <div class="post-list">
+  <h3>The latest from my blog:</h3>
+  {% for post in site.posts limit: 3 %}
+    <a href="{{ post.url }}" class="post">
+      <h3>{{ post.title }}</h3>
+      <h4>Published {{ post.date | date: '%B %d, %Y' }}</h4>
+    </a>
+  {% endfor %}
+  <a href="/blog" class="more">More Posts <i class="fas fa-arrow-right"></i></a>
   </div>
-
-</section>
+{% endif %}
