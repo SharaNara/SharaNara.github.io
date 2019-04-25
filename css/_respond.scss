@@ -1,4 +1,4 @@
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: $mobile-snap) {
   div#header-inner {
     display: block;
   }
@@ -21,6 +21,8 @@
       a.social {
         font-size: 1.5em;
         width: auto;
+        display: inline-block;
+        margin: 4px 8px;
       }
 
       span#nav-divider {
