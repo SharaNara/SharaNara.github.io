@@ -1,15 +1,17 @@
 <div id="header-inner">
   <a href="/" style="text-decoration: none; color: inherit;">
-    <h1>
+    <h2>
       <img src="{{ site.logo }}" alt="[❕]">
       {{ site.title  }}
-    </h1>
+    </h2>
   </a>
 
   <nav>
-    <a href="/about" {% if page.url contains 'about' %}class="c"{% endif %}><i class="fas fa-fw fa-user"></i> About Me</a>
-    <a href="/blog" {% if page.url contains 'blog' or page.url contains 'post' or page.layout == 'post' %}class="c"{% endif %}><i class="fas fa-fw fa-pencil-alt"></i> Blog</a>
-    <a href="/devices" {% if page.url contains 'device' %}class="c"{% endif %}><i class="fas fa-fw fa-laptop"></i> Devices</a>
+    <a href="/about/" {% if page.url contains 'about' %}class="c"{% endif %}><i class="fas fa-fw fa-user"></i> About</a>
+    <a href="/blog/" {% if page.url contains 'blog' or page.url contains 'post' or page.layout == 'post' %}class="c"{% endif %}><i class="fas fa-fw fa-pencil-alt"></i> Blog</a>
+    <a href="/devices/" {% if page.url contains 'device' %}class="c"{% endif %}><i class="fas fa-fw fa-laptop"></i> Devices</a>
+    <a href="/projects/" {% if page.url contains 'projects' %}class="c"{% endif %}><i class="fas fa-fw fa-code"></i> Projects</a>
+    <a href="/contact" {% if page.url contains 'contact' %}class="c"{% endif %}><i class="fas fa-fw fa-envelope"></i> Contact</a>
 
     <span id="nav-divider">&bull;</span>
 
