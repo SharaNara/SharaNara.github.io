@@ -8,14 +8,16 @@ permalink: /
 <p>Here, you'll be able to find things relating to what I do. Below are a few of my latest blog posts, and above you can find links to some of the other pages you can find here.</p>
 
 {% if postnum > 0 %}
-  <div class="post-list">
+  <ul class="post-list">
   <h3>The latest from my blog:</h3>
   {% for post in site.posts limit: 3 %}
-    <a href="{{ post.url }}" class="post">
-      <h3>{{ post.title }}</h3>
-      <h4>Published {{ post.date | date: '%B %d, %Y' }}</h4>
-    </a>
+    <li class="post">
+      <a href="{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+        <h4>Published {{ post.date | date: '%B %d, %Y' }}</h4>
+      </a>
+    </li>
   {% endfor %}
   <a href="/blog" class="more">More Posts <i class="fas fa-arrow-right"></i></a>
-  </div>
+  </ul>
 {% endif %}

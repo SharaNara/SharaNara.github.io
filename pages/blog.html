@@ -7,14 +7,16 @@ permalink: /blog/
 ---
 
 {% if postnum > 0 %}
-  <div class="post-list">
+  <ul class="post-list">
   {% for post in site.posts %}
-    <a href="{{ post.url }}" class="post">
-      <h3>{{ post.title }}</h3>
-      <h4>Published {{ post.date | date: '%B %d, %Y' }}</h4>
-    </a>
+    <li class="post">
+      <a href="{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+        <h4>Published {{ post.date | date: '%B %d, %Y' }}</h4>
+      </a>
+    </li>
   {% endfor %}
-  </div>
+  </ul>
 
 {% else %}
   <h4 style="margin: 0;">There aren't any posts to show yet</h4>

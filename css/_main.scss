@@ -52,6 +52,28 @@ article {
     }
   }
 
+  ul {
+    list-style: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAANlBMVEUAAAAPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWNj72aXAAAAEXRSTlMAAgMEBwpPcXuDjMPF0dPV/f8KXjEAAAA7SURBVBhXtci3AQAgDANBkXPw/sviDkxHgSrdAzylIWbqsCIUIlkyfSpucvHbtrHz4f5mjMuIl4GQ9l8ZqQQPxc3QUgAAAABJRU5ErkJggg==');
+    list-style-position: outside;
+
+    h3 {
+      margin-bottom: 4px;
+    }
+
+    p:first-of-type {
+      margin-top: 0px;
+    }
+  }
+
+  code, pre {
+    font-family: $fn-mono;
+  }
+
+  code {
+    font-size: 1.1em;
+    color: lighten($main, 40%);
+  }
+
   hr {
     border: none;
     padding: 1px;
