@@ -53,7 +53,7 @@ article {
   }
 
   ul {
-    list-style: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAANlBMVEUAAAAPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWMPXWNj72aXAAAAEXRSTlMAAgMEBwpPcXuDjMPF0dPV/f8KXjEAAAA7SURBVBhXtci3AQAgDANBkXPw/sviDkxHgSrdAzylIWbqsCIUIlkyfSpucvHbtrHz4f5mjMuIl4GQ9l8ZqQQPxc3QUgAAAABJRU5ErkJggg==');
+    list-style: url($b64chevron);
     list-style-position: outside;
 
     h3 {
