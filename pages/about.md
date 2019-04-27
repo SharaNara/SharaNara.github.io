@@ -4,7 +4,6 @@ title: About
 description: Who is this guy?
 showdesc: true
 permalink: /about/
-shortpage: true
 ---
 
 Hello! My name is Matthew, though I really don't care whether you call me Matthew or Matt. On the internet however, I tend to go by `Lunarki`. Though, if it's already taken, I tend to use `Mattdogking`.  
