@@ -2,6 +2,7 @@
 <meta charset="utf-8">
 <meta name="theme-color" content="#2cd3df">
 <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+{% if page.redirect %}<meta http-equiv="refresh" content="0; url={{ page.redirect }}">{% endif %}
 <!-- Not required, but useful to check when GH compiled the site. -->
 <meta name="generator" content="Jekyll {{ jekyll.version }}">
 <meta name="generated-at" content="{{ site.time | date: '%R %m/%d/%Y' }}">

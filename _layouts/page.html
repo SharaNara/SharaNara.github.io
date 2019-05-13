@@ -2,9 +2,22 @@
 layout: default
 ---
 
-<section id="page-meta">
-  <h2 id="page-title">{{ page.title }}</h2>
-  {% if page.description and page.showdesc %}<h3 id="page-sub">{{ page.description }}</h3>{% endif %}
-</section>
+{% if page.redirect %}
 
-{{ content }}
+  <section id="page-meta">
+    <h2 id="page-title">Redirecting...</h2>
+    <h3 id="page-sub">Taking you to <code>{{ page.redirect }}</code></h3>
+  </section>
+
+  <p>Nothing happening? Click <a href="{{ page.redirect }}">here</a>.</p>
+
+{% else %}
+
+  <section id="page-meta">
+    <h2 id="page-title">{{ page.title }}</h2>
+    {% if page.description and page.showdesc %}<h3 id="page-sub">{{ page.description }}</h3>{% endif %}
+  </section>
+
+  {{ content }}
+
+{% endif %}
