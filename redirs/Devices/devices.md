@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Devices
-permalink: /devices
+permalink: /devices/
 redirect: https://wiki.lunarnet.space/doku.php?id=devices
 ---
