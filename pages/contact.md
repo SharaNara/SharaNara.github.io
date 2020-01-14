@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-description: LunarNet Contact Information
+description: Contact Information
 showdesc: true
 permalink: /contact/
 ---
