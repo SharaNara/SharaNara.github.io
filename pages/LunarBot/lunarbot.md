@@ -22,4 +22,4 @@ The current prefix is `>`, however a prefix command will eventually be added.
 This page will eventually be updated with more information, such at change logs, etc..
 You can add LunarBot to your server [here](/lunarbot/invite).
 
-UPDATE: LunarBot is currently not operational. I am unsure of how I want to move forward, and I am also working on a new bot framework.
+UPDATE: LunarBot is currently not operational. I am unsure of how I want to move forward, and I am also working on a new bot framework. Once the new framework is done, I will then continue with LunarBot development. It'll be made to be quite modular.
