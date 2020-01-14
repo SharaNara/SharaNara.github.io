@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-description: It's stuff!
+description: All projects I am currently persuing.
 showdesc: true
 permalink: /projects/
 ---
@@ -14,3 +14,9 @@ permalink: /projects/
 
 - ## [Homelab](/homelab)
   A simple homelab consisting of a FX 6300 server and RPI 3b+ running Proxmox and Raspbian respectfully.
+
+- ## [SGC Mainframe]
+  A discord bot for a community.
+
+- ## [LunarBot Framework (need a better name)](/lunarbot/framework)
+  A public Discord bot framework. WIP

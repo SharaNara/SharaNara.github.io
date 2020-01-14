@@ -1,6 +1,8 @@
 ---
 layout: page
 title: LunarBot
+description: LunarBot, a friendly Discord Bot project.
+showdesc: true
 permalink: /lunarbot/
 ---
 
@@ -19,3 +21,5 @@ The current prefix is `>`, however a prefix command will eventually be added.
 
 This page will eventually be updated with more information, such at change logs, etc..
 You can add LunarBot to your server [here](/lunarbot/invite).
+
+UPDATE: LunarBot is currently not operational. I am unsure of how I want to move forward, and I am also working on a new bot framework.
