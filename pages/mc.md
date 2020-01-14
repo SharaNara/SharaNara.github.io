@@ -30,10 +30,10 @@ Enjoy Dynmap [here](/mc/dynmap/)!
 - Harbor (will probably be replaced soon, seems borked)
 
 **The Team**
-Owner: Lunarki
-Head Admin: N/A
-Admins: N/A
-Moderators: N/A
+- Owner: Lunarki
+- Head Admin: N/A
+- Admins: N/A
+- Moderators: N/A
 
 If you experience any problems with the server, contact me!
 Information on that [here](/contact/).
