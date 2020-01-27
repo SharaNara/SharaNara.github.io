@@ -31,7 +31,7 @@ header {
       text-decoration: none;
       color: $main;
       font-size: 1.05em;
-      border-bottom: 0 solid darken($main, 30%);
+      border-bottom: 0px solid darken($main, 30%);
 
 
 
@@ -46,7 +46,8 @@ header {
 
     a:hover,
     a.c {
-      font-weight: bold;
+      // font-weight: bold;
+      border-bottom: 2px solid darken($main, 30%);
     }
 
     a.social {
