@@ -8,13 +8,7 @@ permalink: /lunarbot/
 
 LunarBot is a work in progress Discord bot created as a fun project to learn JavaScript. As of such, it may break at any time and is experimental. Continue at your own risk.
 
-LunarBot Alpha has a multitude of features, including the current public commands:
-Kick
-Ban
-Purge
-Addrole
-Removerole
-Invite
+LunarBot Alpha has a multitude of features. You can see the full command list [here](/lunarbot/commands).
 
 The current prefix is `>`, however a prefix command will eventually be added.
 

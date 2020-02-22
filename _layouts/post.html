@@ -5,7 +5,7 @@ layout: default
 <section id="page-meta">
   <h2 id="page-title">{{ page.title }}</h2>
   {% if page.description %}<h3 id="page-sub">{{ page.description }}</h3>{% endif %}
-  <h4 id="page-date">Published {{ page.date | date: '%B %d, %Y' }}</h4>
+  <h4 id="page-date">Published {{ page.date | date: '%B %d, %Y at %H:%M %Z' }}</h4>
 </section>
 
 {{ content }}

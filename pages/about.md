@@ -6,13 +6,12 @@ showdesc: true
 permalink: /about/
 ---
 
-Hi! I'm Matt, and LunarNet is one of my experiments.
+Welcome to LunarNet! I'm Matt, and this is just one of my experiments.
 
-This site was created to experiment and learn Jekyll and other fundamental web technologies. It's also used to host a few school projects.
+I'm hoping to grow this into something more, perhaps a community of some kind.
 
-I'm a High School student in the US and thus this website can change a lot as I experiment, so be warned.
-
-LunarNet is expanding to become a more professional site and hopefully, at some point, a community of some kind.
+**More about me:**
+So, I'm Matt. I'm a high school student in the United States leaning all about computer science and what not. I tend to run Linux, program things for fun, all of the usual stuff.
 
 You may be interested in my [FaQ](/faq/) page. If not, feel free to explore.
 

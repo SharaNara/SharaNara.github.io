@@ -19,4 +19,4 @@ permalink: /projects/
   A discord bot for a community.
 
 - ## [LunarBot Framework (need a better name)](/lunarbot/framework)
-  A public Discord bot framework. WIP
+  A public Discord bot framework. THIS PROJECT IS ON HOLD

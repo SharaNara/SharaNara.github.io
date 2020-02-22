@@ -6,6 +6,10 @@ showdesc: true
 permalink: /mc/
 ---
 
+**STATUS:**
+Undergoing re-evaluation and construction. Check in to this project later.
+
+
 LunarNet is a small MC server with few plugins. With a small yet friendly community, gameplay can be pure and calm, yet fun. New world w/ a spawn coming soon!
 
 Connect at ``mc.lunarnet.space`` and enjoy Dynmap [here](/mc/dynmap/)!

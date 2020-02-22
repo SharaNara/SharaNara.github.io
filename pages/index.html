@@ -6,20 +6,20 @@ showdesc: true
 permalink: /
 ---
 
-<h2>Welcome! I'm Matt, and this is one of my projects.</h2>
-<p>Here, you'll be able to find things relating to what I do. That's.. That's about all.</p>
+<h2>Welcome to LunarNet, a growing project! (and hopefully community!)</h2>
+<p>This is currently being updated.</p>
 
 {% if postnum > 0 %}
-  <ul class="post-list">
+<ul class="post-list">
   <h3>The latest from my blog:</h3>
   {% for post in site.posts limit: 3 %}
-    <li class="post">
-      <a href="{{ post.url }}">
-        <h3>{{ post.title }}</h3>
-        <h4>Published {{ post.date | date: '%B %d, %Y' }}</h4>
-      </a>
-    </li>
+  <li class="post">
+    <a href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+      <h4>Published {{ post.date | date: '%B %d, %Y' }}</h4>
+    </a>
+  </li>
   {% endfor %}
   <a href="/blog" class="more">More Posts <i class="fas fa-arrow-right"></i></a>
-  </ul>
+</ul>
 {% endif %}

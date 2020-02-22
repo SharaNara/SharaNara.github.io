@@ -6,4 +6,7 @@ showdesc: true
 permalink: /lunarbot/commands/
 ---
 
-something
+Please note that this command list may not be updated to the fullest extent. It is better to use the built in ``help`` or ``commands`` command.
+
+Command List:
+N/A (Working on it!)
