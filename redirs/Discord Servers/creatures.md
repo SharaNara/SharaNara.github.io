@@ -1,8 +1,8 @@
 ---
 layout: page
 title: CoTR Server
-description: Creatures of The Realm Discord Server
+description: Creatures of The Realms Discord Server
 showdesc: true
-permalink: /realm/
+permalink: /realms/
 redirect: https://discord.gg/V9PFDh8
 ---
