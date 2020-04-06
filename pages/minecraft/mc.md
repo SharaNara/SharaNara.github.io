@@ -24,7 +24,8 @@ Rules can be found [here](/mc/rules)
 - VeinMinder
 - TreeCapitator
 - Clearlag (Every 30 mins)
-- Harbor (Allows sleep to skip night, will probably be removed)  
+- Harbor (Allows sleep to skip night, will probably be removed)
+  
 ***Admin***
 - CoreProtect
 - LuckPerms
