@@ -3,7 +3,7 @@ layout: page
 title: About
 description: What's this?
 showdesc: true
-permalink: /about/
+permalink: /about
 ---
 
 Welcome to LunarNet! I'm Matt, and this is just one of my experiments.

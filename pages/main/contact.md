@@ -3,7 +3,7 @@ layout: page
 title: Contact
 description: Contact Information
 showdesc: true
-permalink: /contact/
+permalink: /contact
 ---
 
 Hello! You can contact me in multiple different ways, including:

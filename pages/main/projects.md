@@ -3,7 +3,7 @@ layout: page
 title: Projects
 description: All projects I am currently persuing.
 showdesc: true
-permalink: /projects/
+permalink: /projects
 ---
 
 - ## [LunarNet](/)  

@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Homelab
-permalink: /homelab/
+permalink: /homelab
 redirect: https://wiki.lunarnet.space/doku.php?id=admin:homelab
 ---
