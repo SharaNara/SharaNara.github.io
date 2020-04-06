@@ -17,15 +17,15 @@ Rules can be found [here](/mc/rules)
 - Legitimate game
 - Fun!
   
-**Plugins**
-*Standard*
+**Plugins**  
+***Standard***
 - Dynmap
 - FastLeafDecay
 - VeinMinder
 - TreeCapitator
 - Clearlag (Every 30 mins)
 - Harbor (Allows sleep to skip night, will probably be removed)  
-*Admin*
+***Admin***
 - CoreProtect
 - LuckPerms
 - WorldEdit
