@@ -3,7 +3,7 @@ layout: page
 title: LunarBot
 description: LunarBot, a friendly Discord Bot project.
 showdesc: true
-permalink: /lunarbot
+permalink: /lunarbot/
 ---
 
 LunarBot is a work in progress Discord bot created as a fun project to learn JavaScript. As of such, it may break at any time and is experimental. Continue at your own risk.

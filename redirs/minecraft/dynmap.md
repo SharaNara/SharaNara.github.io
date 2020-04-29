@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Dynmap
-permalink: /minecraft/dynmap
+permalink: /minecraft/dynmap/
 redirect: http://mc.lunarnet.space:8123
 ---

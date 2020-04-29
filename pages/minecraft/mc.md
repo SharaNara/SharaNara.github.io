@@ -3,7 +3,7 @@ layout: page
 title: LunarNet MC
 description: LunarNet MC, a small, friendly 1.15.2 server
 showdesc: true
-permalink: /mc
+permalink: /mc/
 ---
 
 LunarNet MC is a small, growing server with a few plugins. With a small yet friendly (hopefully) community, gameplay can be pure, calm, and fun.  
@@ -26,6 +26,8 @@ We have a discord server! Join us [here](/mc/discord)
 - TreeCapitator
 - Clearlag (Every 30 mins)
 - Harbor (Allows sleep to skip night, will probably be removed)
+- CrazyAuctions
+- StackMobs (Stacks after 20, max 100/stack)
   
 ***Admin***
 - CoreProtect
