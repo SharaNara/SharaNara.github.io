@@ -1,7 +1,7 @@
 title: "LunarNet.space"
 description: "Roaming The Stars"
 url: https://lunarnet.space # no trailing slash
-logo: https://github.com/lunarki.png?w=256
+logo: #https://github.com/lunarki.png?w=256
 
 permalink: /post/:year/:title/
 markdown: kramdown
