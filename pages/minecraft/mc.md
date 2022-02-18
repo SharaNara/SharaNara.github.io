@@ -8,7 +8,7 @@ permalink: /mc/
 
 LunarNet MC is a small, growing server with a few plugins. With a small yet friendly (hopefully) community, gameplay can be pure, calm, and fun.  
   
-Connect at ``mc.lunarnet.space`` and enjoy Dynmap [here](/mc/dynmap)  
+Connect at ``mc.Naryiu.net``and enjoy Dynmap [here](/mc/dynmap)  
 Rules can be found [here](/mc/rules)
   
 We have a discord server! Join us [here](/mc/discord)

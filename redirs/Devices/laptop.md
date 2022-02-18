@@ -2,5 +2,5 @@
 layout: page
 title: Laptop
 permalink: /devices/laptop/
-redirect: https://wiki.lunarnet.space/doku.php?id=devices:laptops:fx53vd
+redirect: https://wiki.Naryiu.net/doku.php?id=devices:laptops:fx53vd
 ---

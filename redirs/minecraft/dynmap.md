@@ -2,5 +2,5 @@
 layout: page
 title: Dynmap
 permalink: /minecraft/dynmap/
-redirect: http://mc.lunarnet.space:8123
+redirect: http://mc.Naryiu.net:8123
 ---

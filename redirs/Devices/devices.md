@@ -2,5 +2,5 @@
 layout: page
 title: Devices
 permalink: /devices/
-redirect: https://wiki.lunarnet.space/doku.php?id=devices:home
+redirect: https://wiki.Naryiu.net/doku.php?id=devices:home
 ---
